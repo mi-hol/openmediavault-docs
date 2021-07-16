@@ -8,7 +8,7 @@ Before you begin:
 	  page </prerequisites>`.
 	- `Download <https://sourceforge.net/projects/openmediavault/files/>`_ an
 	  installation image file for your system. |omv| provides ISO installers
-	  for x86 architecture and several preconfigured images for ARM devices.
+	  for x86 architecture and an automated installation script for ARM devices.
 	- Disconnect all disk devices except the one for the system drive. This way you
 	  avoid an accidental install on a storage drive (which will be configured
 	  after installation anyway).
@@ -26,10 +26,9 @@ First time use:
 	If you have a screen attached, KVM or IMPI console the login screen will
 	display the current IP address assigned for the |webui|. Open your browser
 	and type that IP address. The default |webui| login credential is
-	``admin:openmediavault``, the ``root`` password is the one you setup during
-	installation.
+	``admin:openmediavault``, the ``root`` password is the one you set during
+	installation or was preconfigured by the choosen Debian distribution (i.e. Raspberry Pi OS).
 
-	For ARM images the root password is the same as admin password.
 
 .. note::
    |omv| will enable SSH access for the user ``root`` by default to be
