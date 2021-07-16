@@ -34,7 +34,7 @@ First time use:
 	installation or was preconfigured by the choosen Debian distribution (i.e. Raspberry Pi OS).
 
 
-.. note::
+.. Note::
    |omv| will enable SSH access for the user ``root`` by default to be
    able to access a headless system in case of a broken installation or
    other maintenance situations. You can disable this behaviour in the
