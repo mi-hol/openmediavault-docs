@@ -6,21 +6,25 @@ Installation
 Before you begin:
 	- Check if your hardware is supported on the system :doc:`requirements
 	  page </prerequisites>`.
-	- `Download <https://sourceforge.net/projects/openmediavault/files/>`_ an
-	  installation image file for your system. |omv| provides an ISO installer
-	  for x86 architecture and an automated installation script for all platforms including ARM devices.
 	- Disconnect all disk devices except the one for the system drive. This way you
 	  avoid an accidental install on a storage drive (which will be configured
 	  after installation anyway).
-
+	- Select an appropriate installation variant and strictly follow instructions.
+	
 Installation variants:
-	Choose your installation variant and follow the instructions.
+	The available installation variants have different prerequisites on required user skills, strength and weaknesses of approach.
 
-	* :doc:`Dedicated drive </installation/via_iso>` - Advised method via ISO image. This runs OMV from its own drive.
-	* :doc:`USB flash drive </installation/on_usb>` - This runs |omv| from a USB flash drive.
-	* :doc:`Debian Operating System </installation/on_debian>` - This runs |omv| as a services on top of a Debian OS.
-	* `Debian Operating System via debootstrap <https://forum.openmediavault.org/index.php/Thread/12070-GUIDE-DEBOOTSTRAP-Installing-Debian-into-a-folder-in-a-running-system/>`_. Use this as a last resort in case the installer does not recognize a specific essential hardware component like hard disk (NVME) or a network card that needs a higher kernel (backport).
-	* :doc:`SD card </installation/via_image>` - This runs |omv| from a SD card.
+- Recommended method for x86 architecture is installation via ISO image.
+	* :doc:`Dedicated drive </installation/via_iso>`  This installs |omv| to run from its own dedicated drive.
+- Recommended method for SBCs
+	* :doc:`SD card </installation/via_image>` - This installs |omv| to run from a SD card.
+	* :doc:`USB flash drive </installation/on_usb>` - This installs |omv| to run from a USB flash drive.
+	
+- Advanced method	
+	* :doc:`Debian Operating System </installation/on_debian>` - This installs |omv| to a predetermined storage setup
+	* `Debian Operating System via debootstrap <https://forum.openmediavault.org/index.php/Thread/12070-GUIDE-DEBOOTSTRAP-Installing-Debian-into-a-folder-in-a-running-system/>`_. 
+	Note: Use this approach as a last resort in case the x86 ISO image installer does not recognize a specific essential hardware component like hard disk (NVME) or a network card that needs a higher kernel (backport).
+	
 
 First time use:
 	If you have a screen attached, KVM or IMPI console the login screen will
