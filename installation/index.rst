@@ -15,7 +15,7 @@ Installation variants:
 	The available installation variants have different prerequisites on required user skills, strength and weaknesses of approach.
 
 - Recommended method for x86 architecture - used as simplest starting point
-	* :doc:`Dedicated drive </installation/via_iso>`  This approach uses an ISO image and installs |omv| to run from its own dedicated drive.
+	* :doc:`Dedicated drive </installation/via_iso>`  This approach uses a completely pre-build ISO image and installs |omv| to run from its own dedicated drive.
 - Recommended method for SBCs and low cost x86 architecture computers - used as simple starting point
 	* :doc:`SD card </installation/via_image>` - This installs |omv| to run from a SD card.
 	* :doc:`USB flash drive </installation/on_usb>` - This installs |omv| to run from a USB flash drive.
