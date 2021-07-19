@@ -6,7 +6,7 @@ Installation
 Before you begin:
 	- Check if your hardware is supported on the system :doc:`requirements
 	  page </prerequisites>`.
-	- Disconnect all disk devices except the one for the system drive. This way you
+	- Disconnect all storage devices except the one to be used as operating system drive. This way you
 	  avoid an accidental install on a storage drive (which will be configured
 	  after installation anyway).
 	- Select an appropriate installation variant and strictly follow instructions.
