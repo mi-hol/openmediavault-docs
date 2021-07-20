@@ -14,17 +14,10 @@ Before you begin:
 Installation variants:
 	The available installation variants have different prerequisites on required user skills, strength and weaknesses of approach.
 
-- Recommended method for x86 architecture - used as simplest starting point
-	* :doc:`Dedicated drive </installation/via_iso>`  This approach uses a completely pre-build ISO image and installs |omv| to run from its own dedicated drive.
-- Recommended method for SBCs and low cost x86 architecture computers - used as simple starting point
-	* :doc:`SD card </installation/via_image>` - This installs |omv| to run from a SD card.
-	* :doc:`USB flash drive </installation/on_usb>` - This installs |omv| to run from a USB flash drive.
-	
-- Advanced method - used by experienced Linux users with complex requirements	
-	* :doc:`Debian Operating System </installation/on_debian>` - This installs |omv| to a customized storage device setup
-	* `Debian Operating System via debootstrap <https://forum.openmediavault.org/index.php/Thread/12070-GUIDE-DEBOOTSTRAP-Installing-Debian-into-a-folder-in-a-running-system/>`_. 
-	Note: Use this approach as a last resort in case the x86 ISO image installer does not recognize a specific essential hardware component like hard disk (NVME) or a network card that needs a higher kernel (backport).
-	
+- Recommended method for x86 architecture 
+	* :doc:`Dedicated drive </installation/via_iso>`  This approach uses a completely pre-build ISO image based on Debian OS and installs |omv| to run from its own dedicated drive.
+- Recommended method for SBCs and alternate installation for x86, starting with a hardware specific Debian OS image
+	* :doc:`Debian Operating System </installation/on_debian>` - This installs Debian OS and |omv| to a storage device of choice like memory card, USB-connected storage, etc.
 
 First time use:
 	If you have a screen attached, KVM or IMPI console the login screen will
